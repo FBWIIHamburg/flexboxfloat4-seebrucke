@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blueviolet
+}
+
+.container>div:nth-child(1){
+    flex:2;
+    height: 100vh;
+    background-color:lightcoral;
+}
+
+.container2{
+    flex:8;
+    height: 100vh;
+display:flex;
+flex-direction: column;
+    background-color:lightcyan;
+}
+.container2>div:nth-child(1){
+    
+    height: 20vh;
+
+    background-color:lightgoldenrodyellow;
+}
+.container2>div:nth-child(2){
+    
+    height: 60vh;
+
+    background-color:lightgreen;
+}
+.container2>div:nth-child(3){
+     
+    height: 20vh;
+
+    background-color:lightseagreen;
+}
+*{
+    margin:0;
+}
